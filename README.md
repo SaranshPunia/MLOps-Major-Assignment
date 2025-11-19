@@ -59,5 +59,6 @@ The project utilizes **GitHub Actions** for Continuous Integration, ensuring tha
     kubectl apply -f kubernetes/deployment.yaml
     ```
 2.  **Access**:
-    The service is exposed via a LoadBalancer on port 80 (mapping to container port 5000).
+    The service is exposed via a LoadBalancer on port 80 (mapping to container port 6000).
+
 
