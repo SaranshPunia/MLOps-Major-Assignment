@@ -50,7 +50,7 @@ The project utilizes **GitHub Actions** for Continuous Integration, ensuring tha
     ```
 2.  **Run the container**:
     ```bash
-    docker run -p 5000:5000 olivetti-face-app
+    docker run -p 6000:6000 olivetti-face-app
     ```
 
 ### 3. Kubernetes Deployment
@@ -60,3 +60,4 @@ The project utilizes **GitHub Actions** for Continuous Integration, ensuring tha
     ```
 2.  **Access**:
     The service is exposed via a LoadBalancer on port 80 (mapping to container port 5000).
+
